@@ -146,6 +146,22 @@ body {
   .heading p {
     font-size: 1.2rem;
   }
+
+  @media (min-width: 720px) {
+    .m30bottom {
+        margin-bottom: 30px;
+    }
+    .m15bottom {
+        margin-bottom: 15px;
+    }
+    .m100right {
+        margin-right: 100px;
+    }
+    .m50right {
+        margin-right: 50px;
+    }
+
+  }
   
   
   @media (max-width: 720px) {
